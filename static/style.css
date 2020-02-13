@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(89, 201, 25);
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #333;
+}
+
+.nav li {
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a:hover {
+    background-color: rgb(145, 144, 144)
+}
+
+.index a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.index input {
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}

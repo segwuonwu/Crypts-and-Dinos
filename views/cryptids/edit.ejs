@@ -1,0 +1,16 @@
+<div class="cryt-edith-h2">
+    <h2>Here's a from that edit
+        <%= crypt.name %>
+    </h2>
+</div>
+
+
+<form class="crypt-edit-form" method="POST" action="/cryptids/<%= crypt.id %>/?_method=PUT">
+    <label for="crypt-name">Name:</label>
+    <input type="text" name="name" id="crypt-name" value="<%= crypt.name %>">
+
+    <label for="crypt-type">Image_URL</label>
+    <input type="text" name="img_url" id="crypt-type" value="<%= crypt.img_url %>">
+
+    <input type="submit" value="Edit CRYPT!">
+</form>
